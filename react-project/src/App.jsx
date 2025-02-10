@@ -1,11 +1,12 @@
 import React from 'react'
-import NavOne from './components/NavOne'
+// import NavOne from './components/NavOne'
+import NavTwo from './components/NavTwo'
 
 function App() {
   return (
     <>
     
-    <NavOne/>
+    <NavTwo/>
     <div className='w-25 h-screen  bg-orange-700'>asljdglajs</div>
     </>
   )
