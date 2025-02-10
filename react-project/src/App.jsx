@@ -1,9 +1,12 @@
 import React from 'react'
+import NavOne from './components/NavOne'
 
 function App() {
   return (
     <>
-    <h1>this is app</h1>
+    
+    <NavOne/>
+    <div className='w-25 h-screen  bg-orange-700'>asljdglajs</div>
     </>
   )
 }
