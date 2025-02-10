@@ -19,12 +19,12 @@ function NavTwo() {
           <div className="right flex items-center gap-4 [&>a]:border-b-2 [&>a]:rounded-br-lg [&>a]:px-3 [&>a]:py-1 [&>a]:border-yellow-400">
             <a href="">Sign In</a>
             <FaUserSecret
-              className="text-2xl text-orange-500 "
+              className="text-2xl text-orange-500"
               style={{ cursor: "pointer" }}
             />
           </div>
         </div>
-        <div className="mobile p-3 md:hidden flex items-center justify-end gap-10 px-10">
+        <div className="mobile p-3 md:hidden flex items-center justify-end gap-10 px-5">
           <FaUserSecret
             className="text-2xl  text-orange-500 "
             style={{ cursor: "pointer" }}
@@ -33,7 +33,7 @@ function NavTwo() {
          {isClicked ?  (
             <GiCrossedBones
               style={{ cursor: "pointer" }}
-              className=" text-3xl text-orange-500"
+              className=" text-3xl text-red-700"
             />
           ) : (
             <TiThMenu
@@ -42,6 +42,7 @@ function NavTwo() {
             />
           )}
          </button>
+         <h3 className="text-orange-500 font-extrabold absolute left-[1%] text-2xl">AB_NKY</h3>
         </div>
        
       </div>
